@@ -1,0 +1,62 @@
+.container {
+    padding: 10px 20px;
+}
+.page {
+    padding: 10px;
+    background: #000;
+    width: 260px;
+    position: relative;
+    height: 250px;
+}
+.horizonatal-lines-ct, .vertical-lines-ct, .diagonal1-lines-ct, .diagonal2-lines-ct {
+    position: absolute;
+    width: 240px;
+}
+.h-lines, .v-lines, .d1-lines, .d2-lines {
+    background-repeat: no-repeat;
+    height: 25px;
+    width: 60px;
+    display: block;
+    float: left;
+    visibility: hidden;
+}
+.h-lines {
+    background: url('img/line_hor.png') no-repeat;
+    margin:  25px -22px 35px 55px;
+}
+.v-lines {
+    height: 35px;
+    background: url('img/line_ver.png') no-repeat;
+    margin: 67px 0px -17px 20px;
+}
+.d1-lines {
+    height: 67px;
+    width: 42px;
+    background: url('img/line_diagonal1.png') no-repeat;
+    margin: 40px -19px -25px 61px;
+}
+.d2-lines {
+    height: 40px;
+    width: 40px;
+    background: url('img/line_diagonal2.png') no-repeat;
+    margin: 60px -9px -8px 59px;
+}
+.clear {
+    clear: both;
+}
+.main-ct {
+    position: absolute;
+    width: 260px;
+}
+.pattern-btn {
+    background: blue;
+    display: block;
+    width: 53px;
+    height: 53px;
+    float: left;
+    margin: 16px;
+
+}
+.pattern-btn.active{
+    background: red;
+}
