@@ -16,4 +16,4 @@ Android pattern unlock in Native javascript
 
 #### Demo
 ----------
-[Android Pattern Unlock](http://nitishkumarsingh.in/sample/android-pattern-unlock/)
+[Android Pattern Unlock](http://demo.nitishkumarsingh.in/android-pattern-unlock/)
