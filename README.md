@@ -13,7 +13,3 @@ Android pattern unlock in Native javascript
 1. Code works in multiple browsers(minimum IE7, FF and Chrome)
 2. Used native javascript. No javascript libraries are used. 
 3. Used Semantic HTML.
-
-#### Demo
-----------
-[Android Pattern Unlock](http://www.nitishkumarsingh.com/samples/android-pattern-unlock/)
